@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    {{-- boostrap css --}}
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
+    {{-- my css --}}
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <title>Warunk</title>
   </head>
   <body>
