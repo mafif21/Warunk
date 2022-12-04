@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Warunk</title>
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <title>Warunk</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    {{-- navbar component --}}
+    @include('partials.navbar')
+
+    {{-- content --}}
+    <div class="container">@yield('content')</div>
 
     <script src="{{ asset("js/bootstrap.bundle.min.js") }}"></script>
   </body>
