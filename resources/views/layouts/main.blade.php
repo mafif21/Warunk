@@ -9,7 +9,7 @@
 
     {{-- my css --}}
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <title>Warunk</title>
+    <title>{{ $title }}</title>
   </head>
   <body>
     {{-- navbar component --}}
